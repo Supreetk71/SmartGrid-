@@ -159,7 +159,7 @@ class CEAClient:
             # Fallback to simulated data for development/demo
             return self._get_fallback_grid_status()
     
-    def _get_fallback_power_data(self):
+ 
         """Generate fallback power data for development/demo purposes"""
         return {
             "timestamp": datetime.now().isoformat(),
@@ -221,7 +221,7 @@ class CEAClient:
         
         return data
     
-    def _get_fallback_renewable_data(self):
+  
         """Generate fallback renewable energy data for development/demo purposes"""
         return {
             "timestamp": datetime.now().isoformat(),
@@ -278,7 +278,7 @@ class CEAClient:
             }
         }
     
-    def _get_fallback_grid_status(self):
+   
         """Generate fallback grid status data for development/demo purposes"""
         return {
             "timestamp": datetime.now().isoformat(),
